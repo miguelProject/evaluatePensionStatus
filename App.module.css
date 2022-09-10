@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: whitesmoke;
+  font-family: 'Raleway', sans-serif;
+}
+
+.wrapper_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px dotted coral;
+  background: white;
+  width: 32rem;
+  height: 19rem;
+  margin: 1rem auto;
+}
+
+.wrapper_content > h1 {
+  color: #222;
+  padding: 1rem 3rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 0.15rem dotted coral;
+}
